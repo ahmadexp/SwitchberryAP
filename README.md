@@ -1,4 +1,4 @@
-# Switchberry RaspAP
+# SwitchberryAP
 
 <p align="center">
   <img src="app/img/devices/switchberry.png" width="720" alt="Switchberry CM4 precision timing switch">
@@ -6,7 +6,7 @@
 
 [![Switchberry V6](https://img.shields.io/badge/hardware-Switchberry%20V6-2b8080)](https://github.com/Time-Appliances-Project/Switchberry) [![RaspAP 3.5.5](https://img.shields.io/badge/RaspAP-3.5.5-2b8080)](https://github.com/RaspAP/raspap-webgui) [![IEEE 1588](https://img.shields.io/badge/timing-IEEE%201588-blue)](#ptp-clock-planes) [![License GPLv3](https://img.shields.io/badge/license-GPLv3-green)](LICENSE)
 
-Switchberry RaspAP turns the Switchberry Compute Module 4 carrier into a web-managed precision timing switch. It combines RaspAP networking with direct control and monitoring of the KSZ9567 Ethernet switch, Renesas 8A34004 ClockMatrix, M.2 GNSS receiver, Linux PTP stack, PHC/PPS chain, SyncE path and four rear-panel SMA timing connectors.
+SwitchberryAP turns the Switchberry Compute Module 4 carrier into a web-managed precision timing switch. It combines RaspAP networking with direct control and monitoring of the KSZ9567 Ethernet switch, Renesas 8A34004 ClockMatrix, M.2 GNSS receiver, Linux PTP stack, PHC/PPS chain, SyncE path and four rear-panel SMA timing connectors.
 
 The interface supports hardware transparent clock, five-port boundary clock, grandmaster and ordinary-client operation. A live Dashboard summarizes the active clock plane, DPLL state, GNSS acquisition, PPS/PHC health and assigned timing references without opening the full engineering console.
 
